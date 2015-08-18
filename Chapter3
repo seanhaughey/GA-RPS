@@ -1,0 +1,6 @@
+ function getPlayerMove(move) {
+    return move || getInput();
+}
+function getComputerMove(move) {
+    return move || randomPlay();
+}
